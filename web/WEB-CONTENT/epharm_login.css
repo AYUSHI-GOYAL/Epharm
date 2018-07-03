@@ -1,0 +1,153 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 16, 2018, 7:27:37 PM
+    Author     : Rajiv
+*/
+/*
+header{
+    background-color: white;    
+    height: 100px;
+}
+header h1{
+    margin: 0;  
+}
+
+.topcontainer{            
+               left: 0%;
+               padding: 10px 15px;
+               background: white;
+           }
+           
+           .header {
+                padding: 0px 0px;
+                background:white ;
+                color: black;
+            }
+           
+            .footer {
+                position: fixed;
+                left: 0;
+                bottom: 0;
+                height: 7%;
+                width: 100%;
+                background-color: black;
+                color: white;
+                text-align: end;
+            }
+*/            
+            #content {
+                position: relative;
+            }
+            #content img {
+                position: fixed;
+                top: 0px;
+                left: 0px;
+            }
+            
+            #example1 {
+                left: 0%;                
+                width: 600px;
+                height: 380px;
+                background: white;
+                border-radius: 15px;
+                margin: 0 auto;
+                text-align: center;
+            } 
+            
+            input[type=text], textarea {
+                -webkit-transition: all 0.30s ease-in-out;
+                -moz-transition: all 0.30s ease-in-out;
+                -ms-transition: all 0.30s ease-in-out;
+                -o-transition: all 0.30s ease-in-out;
+                outline: none;
+                padding: 3px 0px 3px 3px;
+                margin: 5px 1px 3px 0px;
+                border: 1px solid #DDDDDD;
+            }
+ 
+            input[type=text]:focus, textarea:focus {
+                box-shadow: 0 0 5px rgba(48, 243, 54, 1);
+                padding: 3px 0px 3px 3px;
+                margin: 5px 1px 3px 0px;
+                border: 1px solid rgba(48, 243, 54, 1);
+            }
+            input[type=password]:focus, textarea:focus {
+                box-shadow: 0 0 5px rgba(48, 243, 54, 1);
+                outline: none;
+                padding: 3px 0px 3px 3px;
+                margin: 5px 1px 3px 0px;
+                border: 1px solid rgba(48, 243, 54, 1);
+                border: 1px solid #DDDDDD;
+            }
+            #textboxid
+            {
+                height:25px;
+                font-size:14pt;
+            }
+            #passboxid
+            {
+                height:25px;
+                font-size:14pt;                
+            }
+            .button {
+                cursor: pointer;
+                background-color: limegreen;                 
+                border: black;
+                border-style: solid;
+                color: black;
+                padding: 15px 230px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+            }
+            .button:hover {background-color: #eaedea}
+            .button:active {
+                   background-color: #3e8e41;
+                   box-shadow: 0 5px #666;
+                   transform: translateY(4px);
+            }
+            .buttonnew {              
+                background-color: black;
+                border: lime;
+                border-style: solid;
+                color: limegreen;
+                padding: 15px 143px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                transition: all 0.5s;
+                cursor: pointer;
+            }
+            .buttonnew:hover {background-color: #eaedea}
+            .buttonnew:active {
+                   background-color: #3e8e41;
+                   box-shadow: 0 5px #666;
+                   transform: translateY(4px);
+            }
+            
+            a:link {
+                color: green;
+                background-color: transparent;
+                text-decoration: none;
+            }       
+            a:visited {
+                color: pink;
+                background-color: transparent;
+                text-decoration: none;
+            }
+            a:hover {
+                color: red;
+                background-color: transparent;
+                text-decoration: underline;
+            }
+            a:active {
+                color: yellow;
+                background-color: transparent;
+                text-decoration: underline;
+            }
